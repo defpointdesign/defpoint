@@ -2,7 +2,7 @@ class SchoolClass:
     '''Represents school class pupil'''
     def __init__(self, class_name):
         self.name = class_name
-        self.pupil_list = []
+        self.pupil_list =     []
 
     def add_pupil(self, name, surname):
        self.pupil_list.append({ "name": name, "surname": surname})
