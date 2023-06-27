@@ -8,7 +8,7 @@ class Bank:
         '''Deposit money into a bank account'''
         add_dep= int(input('I deposit to your account: '))
         self.balance += add_dep
-        print('On the account: ', Bank.balance)
+        print('On the account: ', self.balance)
 
     def withdraw (self):
         '''Withdraw money from a bank account'''
