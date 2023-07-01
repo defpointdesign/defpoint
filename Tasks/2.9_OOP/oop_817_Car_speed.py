@@ -10,12 +10,10 @@ class Car:
         print ('Current speed:', self.speed)
     def accelerate(self):
         self.speed += 5
-        Car.speed = self.speed
-        print('Current speed:', Car.speed)
+        print('Current speed:', self.speed)
     def brake (self):
-        Car.speed = self.speed
         self.speed -= 5
-        print('Current speed:', Car.speed)
+        print('Current speed:', self.speed)
 
 volvo_v50 = Car('Volvo', 'V50', 2010, 0)
 print('Car accelerates:')
@@ -31,4 +29,18 @@ volvo_v50.brake()
 volvo_v50.brake()
 volvo_v50.brake()
 volvo_v50.get_speed()
+print('Car stopped')
+
+ford_fokus = Car('Ford', 'fokus', 2012, 15)
+print('Car accelerates:')
+ford_fokus.accelerate()
+ford_fokus.accelerate()
+ford_fokus.accelerate()
+ford_fokus.accelerate()
+print('Car slows down:')
+ford_fokus.brake()
+ford_fokus.brake()
+ford_fokus.brake()
+ford_fokus.brake()
+ford_fokus.get_speed()
 print('Car stopped')

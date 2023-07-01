@@ -1,0 +1,25 @@
+814. Напишіть клас Bank для опису простих операції з вашим банківським рахунком:
+покласти на рахунок, зняти з рахунку, переглянути рахунок.
+При створенні екземпляру класу, екземпляр отримує атрибут __balance з певним значенням.
+Клас повинен містити методи для додавання коштів на рахунок і знімання з рахунку,
+за умови, що на рахунку достатньо коштів.
+
+Вхідні дані:
+Немає
+
+Вихідні дані:
+I open a bank account
+I deposit to your account:
+5000
+On the account: 5000.00
+I withdraw from your bank account:
+4200
+On the account: 800.00
+I open a bank account
+I deposit to your account:
+1000
+On the account: 1000.00
+I withdraw from your bank account:
+1200
+Error: not enough money
+On the account: 1000.00
